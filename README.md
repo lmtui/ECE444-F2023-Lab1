@@ -3,6 +3,7 @@
 this repo is a clone of https://github.com/miguelgrinberg/flasky
 
 # Activity 1
+![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/4e7d2bd5-3c33-4870-a2aa-94f9642bf686)
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/71947fc7-013f-4b88-81a2-aaefde1bf041)
 
 # Activity 2

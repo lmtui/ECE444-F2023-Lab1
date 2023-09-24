@@ -21,6 +21,12 @@ this repo is a clone of https://github.com/miguelgrinberg/flasky
 2nd
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/855e38d2-7c52-4d6b-aa82-ad49a15642ae)
 
+3rd
+
+4th
+![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/b9b982ac-62e7-45aa-b0c1-f0e620189613)
+
+
 
 
 

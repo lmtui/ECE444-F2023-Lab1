@@ -17,10 +17,11 @@ this repo is a clone of https://github.com/miguelgrinberg/flasky
 
 
 # Activity 4
+commit message: Activity 4 step 1
 1st
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/41240179-dc05-4338-adea-2db5bd7a96e3)
 
-
+commit message: Activity 4 step 2
 2nd
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/855e38d2-7c52-4d6b-aa82-ad49a15642ae)
 

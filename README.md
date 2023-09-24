@@ -14,6 +14,7 @@ this repo is a clone of https://github.com/miguelgrinberg/flasky
 
 # Activity 3
 commit message: fixed activity 3
+
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/fdb9c77d-67d3-45fe-a27e-db6398f11464)
 
 

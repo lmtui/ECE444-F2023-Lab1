@@ -1,8 +1,10 @@
 from flask import Flask
-
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    ##displays this
-    return '<h1>Hello World!</h1>'
+    return '<h1>Hello World!</h1><h1>Lisa Mtui</h1>'
+
+@app.route('/user/<name>')
+def user(name):
+    return '<h1>Hello, {}!</h1>'.format(name)

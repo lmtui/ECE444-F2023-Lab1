@@ -1,17 +1,42 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session, redirect, url_for, flash, request
+from datetime import datetime
+from flask_wtf import FlaskForm  # Import FlaskForm instead of Form
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired, Email
 from flask_bootstrap import Bootstrap
-from datetime import datetime, timedelta
+from flask_moment import Moment
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'hard to guess string'
 bootstrap = Bootstrap(app)
+moment = Moment(app)
 
-@app.route('/')
+class NameForm(FlaskForm):  # Inherit from FlaskForm
+    name = StringField('What is your name?', validators=[DataRequired()])
+    email = StringField('What is your UofT Email address', validators=[DataRequired(), Email()])
+    submit = SubmitField('Submit')
+
+
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    name = "Lisa"  # Replace with your desired name
-    current_time = datetime.now()
-    event_time = current_time - timedelta(minutes=1)  # Set event time to 1 minute before current time
-    elapsed_time = int((current_time - event_time).total_seconds() / 60)  # Calculate elapsed time in minutes and round to the nearest integer
-    return render_template('user.html', name=name, current_time=current_time, elapsed_time=elapsed_time)
+    form = NameForm()
+    if request.method == 'POST' and form.validate():
+        session.permanent = False
+        old_name = session.get('name')
+        old_email = session.get('email')
+        if old_name is not None and old_name != form.name.data:
+            flash('Looks like you have changed your name!')
+        if old_email is not None and old_email != form.email.data:
+            flash('Looks like you have changed your email!')
+        session['name'] = form.name.data
+        session['email'] = form.email.data
+        return redirect(url_for('index'))
+    return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'))
+@app.route('/user/<name>')
+def user(name):
+    print(datetime.utcnow())
+    return render_template('user.html', name=name, current_time=datetime.utcnow())
 
 if __name__ == '__main__':
     app.run(debug=True)

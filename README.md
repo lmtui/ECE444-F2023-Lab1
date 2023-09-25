@@ -10,6 +10,8 @@ this repo is a clone of https://github.com/miguelgrinberg/flasky
 
 # Activity 2
 Commit messages reproduced 2-1, fixed reprodeced  2-2
+![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/a7fd2988-5a28-4b6b-b36e-f5bcb130ee9e)
+
 
 
 # Activity 3

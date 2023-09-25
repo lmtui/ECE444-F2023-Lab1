@@ -15,7 +15,9 @@ Commit messages reproduced 2-1, fixed reprodeced  2-2
 # Activity 3
 commit message: fixed activity 3
 
+
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/edabb695-d9b2-4395-990d-7a83e5971161)
+
 
 
 

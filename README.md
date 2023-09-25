@@ -9,8 +9,8 @@ this repo is a clone of https://github.com/miguelgrinberg/flasky
 ![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/71947fc7-013f-4b88-81a2-aaefde1bf041)
 
 # Activity 2
-![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/d03de324-bde9-4c1b-b3a3-3ce5968927c3)
-![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/f448af8e-916b-4092-acaf-343d69305fa1)
+Commit messages reproduced 2-1, fixed reprodeced  2-2
+
 
 # Activity 3
 commit message: fixed activity 3

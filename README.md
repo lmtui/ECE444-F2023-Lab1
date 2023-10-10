@@ -9,8 +9,7 @@
 
 # Activity 3
 
-![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/b0d967f1-0d82-4e3f-8f1c-716ccaade92b)
-
+![image](https://github.com/lmtui/ECE444-F2023-Lab1/assets/99363546/895c1dc8-49a4-46eb-aa57-f7baa79db52f)
 
 
 
